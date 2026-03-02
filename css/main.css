@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #404040;
+    /*padding: 20px;*/
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.topimage {
+    width: 100%;
+}
+
+section {
+    text-align: center;
+}
+
+.featurebox {
+    display: flex;
+    margin-bottom: 25px;
+    background-color: gray;
+}
+
+.featuretext {
+    width: 50%;
+    padding: 25px;
+}
+
+.featureimage {
+    margin: 10px;
+    padding: 10px;
+    width: 640px;
+    height: 360px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #202020;
+}
+
+.featurevideo {
+    margin: 10px;
+    padding: 10px;
+    width: 640px;
+    height: 360px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #202020;
+}
+
+.featuremusic {
+    /*margin: 10px, 0, 10px, 0;
+    /*padding: 10px;*/
+    /*width: 640px;*/
+    height: 360px;
+}
+
+.audiolisting {
+    width: 620px;
+    margin: 10px;
+    padding: 7px 10px 7px 30px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #202020;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+audio {
+    padding-left: 30px;
+    float: right;
+}
+
+footer {
+    background-color: #404040;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#faebloom {
+    background-color: #9E669C;
+}
+
+#artists-nightmare {
+    background-color: #7BA0C4;
+}
+
+#crossbow-game {
+    background-color: #54A278;
+}
+
+#art-showcase {
+    background-color: #8BCFE8;
+}
+
+#programming-showcase {
+    background-color: #C29643;
+    /*FFFF79 ball, 737B0C star, FFFF05 title, B2893C coin, C29643 coin 2*/
+}
+
+#music-showcase {
+    background-color: mediumvioletred;
+}
+
+#web-design-showcase {
+    background-color: #7CAADD;
+    /*2081F9 bright blue, 7AB2D5 blue sky, 7CAADD purpler blue sky*/
+}
