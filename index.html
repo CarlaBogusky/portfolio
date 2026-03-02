@@ -2,10 +2,170 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Carla Bogusky Portfolio</title>
+<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    <h1>Carla's Portfolio</h1>
-    <p>Coming soon!</p>
+    <header>
+        <!--<a class="navigation" href="index.html">Carla Bogusky</a>-->
+        <h3>Carla Bogusky's Portfolio</h3>
+    </header>
+
+    <img class="topimage" src="img/header-image.jpg">
+
+    <section>
+        <h1>About</h1>
+
+        <p>Hi! I'm Carla Bogusky, a third-year game design student at George Mason University. I've been playing video games for as long as I can remember, and I've wanted to be a game designer since I was 10 years old. I've been learning programming for 7 years and Unity game development for the past 5 years. I have experience coding in Java, C++, C#, and HTML/CSS. I also have experience with various art and creative programs, such as Adobe Photoshop, Illustrator, Premiere, and 3DS Max.</p>
+    </section>
+
+    <section>
+        <h1>Games I've made!</h1>
+
+        <div class="featurebox" id="faebloom">
+            <div class="featuretext">
+                <h2>Faebloom</h2>
+                <h3>Team Project</h3>
+                <p>Faebloom is a 2D platformer game about a fairy trying to navigate her way through the forest using elemental magic. It was made by 3 people in 2 months as a final project for a game design class. I was the lead programmer on this project and implemented most of the game's mechanics, such as the elemental powerups and the enemy functionality. I also contributed to level design, and I composed both the title screen music and the level music. </p>
+            </div>
+
+            <!--<img class="featureimage" src="img/faebloom.png">
+            <video class="featurevideo" controls>
+                <source src="video/faebloom-walkthrough.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>-->
+            <iframe class="featurevideo" src="https://www.youtube-nocookie.com/embed/G_7RRuor_QA?si=whvpoQ3lV2gk0f2N" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="featurebox" id="artists-nightmare">
+            <div class="featuretext">
+                <h2>Artist's Nightmare</h2>
+                <h3>Solo Project</h3>
+                <p>Artist's Nightmare is a 3D hack-and-slash game about a stressed art student fighting off animated drawing mannequins in her nightmares. It was made by myself in 1 month as a midterm project for a game design class. I programmed the character controller, including a 3-attack combo, as well as the enemy functionality. I also created the level design. All models/animations were sourced from the Unity Asset Store, Sketchfab, and Mixamo.</p>
+            </div>
+
+            <!--<img class="featureimage" src="img/artists-nightmare.png">
+            <video class="featurevideo" controls>
+                <source src="video/artists-nightmare-walkthrough.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>-->
+            <iframe class="featurevideo" src="https://www.youtube-nocookie.com/embed/dqBg76wbG2A?si=_GB5bzr1HjzPxJr1" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="featurebox" id="crossbow-game">
+            <div class="featuretext">
+                <h2>Crossbow Game</h2>
+                <h3>Solo Project</h3>
+                <p>Crossbow Game is a first person shooter with a cute fantasy twist. It was made by myself in 2 weeks for a game design summer program I attended in high school. I programmed the shooting mechanics of the first person character controller, as well as the enemy functionality, player health, lose condition, and win condition. All models were sourced from the Unity Asset Store.</p>
+            </div>
+
+            <!--<img class="featureimage" src="img/crossbow-game.png">
+            <video class="featurevideo" controls>
+                <source src="video/crossbow-game-walkthrough.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>-->
+            <iframe class="featurevideo" src="https://www.youtube-nocookie.com/embed/pYXyRZKrGo8?si=ULVmEsxTgb-R-xU6" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    
+    <section>
+        <h1>Other Projects</h1>
+
+        <div class="featurebox" id="art-showcase">
+            <div class="featuretext">
+                <h2>The Fire Mage's Adventure</h2>
+                <h3>Game Art Showcase</h3>
+                <p>The Fire Mage's Adventure is a nearly-full reskin of the Unity Platformer Microgame template as a final project for a game art class. I made my own textures for all of the environment objects and background elements to transform the game into a snowy landscape. I also designed and animated an original player character, a fire mage, to contrast with this wintery world.</p>
+            </div>
+
+            <!--<video class="featurevideo" controls>
+                <source src="video/art-showcase.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>-->
+            <iframe class="featurevideo" src="https://www.youtube-nocookie.com/embed/xIn8Ms-sX2E?si=vyGE-BqT2_WHWuuX" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <div class="featurebox" id="programming-showcase">
+            <div class="featuretext">
+                <h2>Dungeon of the Trolls</h2>
+                <h3>Game Programming Showcase</h3>
+                <p>Dungeon of the Trolls is my final project from a game programming class. The goal of this assignment was to repurpose and refine code and assets from several of our earlier projects in the class to create something new. I made a small dungeon exploration game.</p>
+            </div>
+
+            <!--<video class="featurevideo" controls>
+                <source src="video/programming-showcase.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>-->
+            <iframe class="featurevideo" src="https://www.youtube.com/embed/_n82-fgrS-M?si=tuiT53_OpUeGvghz" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="featurebox" id="music-showcase">
+            <div class="featuretext">
+                <h2>Game Music Showcase</h2>
+                <p>As part of my game design coursework, I've made a few game music tracks. My compositions for Faebloom are featured in the video on Faebloom above. Here are a few other tracks I have composed. All music was made using FL studio.</p>
+            </div>
+
+            <div class="featuremusic">
+                <div class="audiolisting">
+                    <p>Song #1: Mysterious Forest</p>
+                    <audio controls>
+                        <source src="audio/song1.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audiolisting">
+                    <p>Song #2: Mining Cave</p>
+                    <audio controls>
+                        <source src="audio/song2.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audiolisting">
+                    <p>Song #3: Peaceful Town</p>
+                    <audio controls>
+                        <source src="audio/song3.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+                <div class="audiolisting">
+                    <p>Song #4: Beach Battle</p>
+                    <audio controls>
+                        <source src="audio/song4.wav" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="featurebox" id="web-design-showcase">
+            <div class="featuretext">
+                <h2>Web Design Showcase</h2>
+                <p>I've also dabbled in web design and HTML/CSS coding. In addition to making this portfolio website, I made a mock travel website for the city of Seattle as a final project for a web design class.</p>
+                <p>See my website <a href="https://carlabogusky.github.io/avt217/project/index.html">here</a>!</p>
+            </div>
+
+            <img class="featureimage" src="img/web-design-showcase.png">
+        </div>
+    </section>
+
+    <section>
+        <h1>Contact Me</h1>
+        <p>Email: cbogusky@gmu.edu</p>
+    </section>
+
+    <footer>
+        <p>Website created by Carla Bogusky</p>
+    </footer>
 </body>
