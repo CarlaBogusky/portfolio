@@ -27,12 +27,24 @@ a {
     color: black;
 }
 
+a.navigation {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a.navigation:hover{
+    background-color: #404040;
+}
+
 header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #404040;
-    /*padding: 20px;*/
+    background-color: #202020;
+    padding-bottom: 20px;
     width: 100%;
     color: white;
     text-align: center;
@@ -101,7 +113,7 @@ audio {
 }
 
 footer {
-    background-color: #404040;
+    background-color: #202020;
     padding: 20px;
     color: #FFFFFF;
     text-align: center;
@@ -135,4 +147,9 @@ footer {
 #web-design-showcase {
     background-color: #7CAADD;
     /*2081F9 bright blue, 7AB2D5 blue sky, 7CAADD purpler blue sky*/
+}
+
+#about {
+    width: 75%;
+    margin: auto;
 }
